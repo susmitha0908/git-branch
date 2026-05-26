@@ -9,7 +9,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return "This is a Python Flask app running in Docker!"
+    return "This is a Python Flask app running in Python!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000)
